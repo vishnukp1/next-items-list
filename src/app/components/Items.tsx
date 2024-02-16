@@ -7,7 +7,7 @@ type ItemProps = {
   toggleItem: (id: string, complete: boolean) => void
 }
 
-export function TodoItem({ id, title, complete, toggleItem }: ItemProps) {
+export function Item({ id, title, complete, toggleItem }: ItemProps) {
   return (
     <li className="flex gap-1 items-center">
       <input
